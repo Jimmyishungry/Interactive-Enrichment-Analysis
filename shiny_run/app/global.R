@@ -9,7 +9,8 @@ analyzed.columns <- c('gene','fold.change','p.value', 'rank')
 
 # editable list of supported orgs
 supported.orgs <- list(human = "org.Hs.eg.db", 
-                       mouse = "org.Mm.eg.db")
+                       mouse = "org.Mm.eg.db"
+                      drosophila = "org.Dm.eg.db")
 
 # editable list of supported idTypes (see keytypes per orgDb)
 supported.idTypes <- c("SYMBOL",  
